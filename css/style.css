@@ -56,3 +56,20 @@ footer{
     background-color:black ;
     color: #D4DCFF;
 }
+
+@media screen and (max-width:710px){
+    .imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:515px) {
+.imagen {
+display: none;
+}
+.kira{
+    display: none;
+}
+}
